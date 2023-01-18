@@ -1,0 +1,1198 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.clear-both {
+    clear: both;
+}
+
+a {
+    transition: 2s;
+}
+
+
+
+/*--------Main---------*/
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/*-----Header--------*/
+
+.main-header {
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+}
+
+
+
+.logo-img {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.logo-img img {
+    height: 50px;
+    width: auto;
+}
+
+.navigation {
+    display: inline-block;
+    margin-left: 500px;
+    
+}
+
+.navbar-items li {
+    display: inline-block;
+    padding-right: 1.25rem;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: rgb(95, 95, 206);
+}
+
+.navbar-item a:hover {
+    color: red;
+    
+}
+
+
+/*------------Main saction--------------*/
+
+.banner {
+    background: url('../css-rasmlar/back-pic.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 660px;
+    padding-top: 50px;
+    box-sizing: border-box;
+   
+
+}
+
+.title {
+    margin: 0;
+    font-size: 56px;
+    line-height: 80px;
+    text-align: center;
+    background-color: white;
+    opacity: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 20px 20px;
+    text-transform: uppercase;
+    
+}
+
+
+/*---------Reputation section-------------------*/
+
+.subtitle {
+    font-size: 46px;
+    text-align: center;
+}
+
+.reputation-boxes {
+    text-align: center;
+    
+}
+
+.reputation-boxes div {
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.reputation-box {
+    border: solid 1px rgba(155, 153, 153, 0.623);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.reputation-box i {
+    color: orange;
+    font-size: 24px;
+
+}
+
+.reputation-subtitle {
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.reputation-description {
+    color: grey;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.reputation-box:hover .reputation-subtitle,
+.reputation-box:hover .reputation-description,
+.reputation-box:hover i {
+    color: white;
+}
+
+.reputation-box:hover {
+    background-color: orange;
+    transition: 2s;
+}
+
+
+/*-----------------About Us section--------------------*/
+
+
+.about-us {
+    height: 600px;
+}
+
+.man-gray img {
+    min-height: 350px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 600px;
+}
+
+.man-description {
+    background-color: rgb(59, 59, 158);
+    width: 450px;
+    position: relative;
+    top: -400px;
+    padding: 20px 10px 20px 20px;
+    height: 300px;
+    left: 550px;
+    color: rgba(255, 255, 255, 0.836);
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.action {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: blue;
+    font-weight: bold;
+    border: white;
+}
+
+.action:hover {
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+/*------------------------Service section-------------*/
+
+.services {
+    background-color: rgb(243, 240, 240);
+    padding-bottom: 20px;
+}
+
+
+.services h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.829);
+    font-size: 36px;
+}
+
+.service-cards {
+    text-align: center;
+
+}
+
+.service-cards div {
+    width: 20%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 40px 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.line {
+    width: 50px;
+    height: 0.25rem;
+    background-color: rgba(128, 128, 128, 0.596);
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.card i {
+    font-size: 26px;
+    color: blue;
+    display: block;
+    margin-top: 10px;
+}
+
+.card p {
+    color: rgba(0, 0, 255, 0.692);
+    font-weight: bold;
+}
+
+
+.card:hover,
+.card:hover i,
+.card:hover p {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.card:hover .line {
+    background-color: white;
+}
+
+.card.active i,
+.card.active p,
+.card.active {
+    color: white;
+    background-color: blue;
+}
+
+.card.active .line {
+    background-color: white;
+}
+
+
+
+/*--------------------History section---------------------*/
+
+.history {
+    height: 500px;
+}
+
+.history-nums,
+.history-description {
+    width: 50%;
+    float: left;
+}
+
+
+
+.history-nums div {
+    display: inline-block;
+    width: 250px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+
+.history-p {
+    border-left: 6px solid orange;
+    padding: 5px 10px;
+    margin-top: 3px;
+    color: rgb(126, 126, 126);
+    position: absolute;
+    top: 55px;
+    left: 35px;
+
+}
+
+
+
+.history-num-subtitle {
+    font-size: 42px;
+    margin: 0 auto;
+    color: rgb(61, 61, 61);
+    position: absolute;
+    top: 10px;
+}
+
+
+.history-description {
+    padding-left: 100px;
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+
+.rel-1 {
+    position: relative;
+    top: 140px;
+    left: 70px;
+}
+
+.rel-2 {
+    position: relative;
+    top: 70px;
+}
+
+.rel-3 {
+    position: relative;
+    top: 180px;
+    left: 90px;
+}
+
+.rel-4 {
+    position: relative;
+    top: 100px;
+    left: -50px;
+}
+
+.history-des__title {
+    font-size: 42px;
+    color: rgba(4, 4, 160, 0.795);
+    font-weight: 900;
+}
+
+.history-des__p {
+    color: rgb(126, 126, 126);
+    line-height: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+.history-button {
+    background-color: rgba(4, 4, 160, 0.795);
+    border: 0;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.icon-1, .icon-2, .icon-4 {
+    position: relative;
+    color: orange;
+    font-size: 46px;
+    bottom: 45px;
+    right: 50px;
+}
+
+.icon-2, .icon-4 {
+    color: blue;
+    left: 200px;
+    font-size: 56px;
+    top: -25px;
+}
+
+.icon-4 {
+    color: darkseagreen;
+}
+
+.icon-3 {
+    position: relative;
+    color: rgb(255, 0, 157);
+    font-size: 56px;
+    left: 200px;
+    top: 50px;
+}
+
+
+/*-------------------Consultation------------------*/
+
+.consultation {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../css-rasmlar/kitch.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    margin-top: 30px;
+    
+}
+
+
+
+.consul-item__1 {
+    display: inline-block;
+    width: 70%;
+}
+
+.consul-item__2 {
+    display: inline-block;
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.consul-subtitle {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.consul-p {
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.consul-p span {
+    text-underline-offset: 5px;
+    text-decoration: underline white;
+}
+
+.consul-action {
+    font-weight: bold;
+    padding: 10px;
+    width: 180px;
+    border-radius: 2px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+/*-------------------Projects Section------------------*/
+
+.projects {
+    margin-top: 50px;
+}
+
+.projects__title {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.74);
+    padding-left: 25px;
+}
+
+.projects__item-list {
+    list-style: none;
+    line-height: 35px;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.active__li {
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    height: 25px;
+    position: relative;
+    right: 12px;
+    bottom: 10px;
+    color: blue;
+
+}
+
+.projects__item-1 {
+    width: 30%;
+    float: left; 
+
+}
+
+.projects__item-2 {
+    width: 70%;
+    float: right;
+}
+
+.projects__item-pic {
+    background: url(../css-rasmlar/build-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    width: 45%;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+
+}
+
+.projects__item-pic:hover {
+    transform: translate(10px, 10px);
+    transition: 1s;
+
+  }
+
+.projetcs__item-description {
+    position: absolute;
+    background-color: rgb(61, 61, 141);
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+}
+
+.projetcs__item-description h4,
+.projetcs__item-description p {
+    line-height: 5px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.projects__item-2 {
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.move__part {
+    padding-left: 10px;
+}
+
+.move__part button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+
+.mid__dott {
+    width: 70px;
+    height: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    border-top: solid 10px rgb(61, 61, 141);
+    border-top-style: dotted;
+    border-bottom-style: none;
+}
+
+/*-----------------Contact Section--------------*/
+
+.contact {
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact__title {
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.contact__title h3 {
+    letter-spacing: 0.5px;
+    color: rgb(77, 77, 77);
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.contact__title p {
+    letter-spacing: 0.5px;
+    color: rgb(77, 77, 77);
+    font-weight: 300;
+    
+}
+
+
+
+.first-part__form input,
+.second-part__form input {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.first-part__form div,
+.second-part__form div {
+    display: inline-block
+
+}
+
+form textarea {
+    border: none;
+    width: 430px;
+    outline: none;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    margin-right: 8px;
+    padding-right: 0;
+    border-radius: 3px;
+}
+
+.submit button {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+    border: none;
+    background-color: rgb(61, 61, 141);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+
+}
+
+/*------------------Footer Section------------------*/
+
+.left__foot,
+.right__foot {
+    width: 50%;
+    float: left;
+}
+
+.left__foot p {
+    font-weight: bold;
+    color: rgb(62, 62, 165);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.left__foot span {
+    color: rgb(61, 61, 61);
+}
+
+.foot__logo img {
+    width: 70px;
+    height: auto;
+}
+
+.right__foot h4 {
+    color: rgb(62, 62, 165);
+}
+
+.right__foot input {
+    padding: 8px 8px;
+    border-radius: 3px;
+    border: 1px solid rgb(206, 206, 206);
+    outline: none;
+
+}
+
+.right__foot button {
+    padding: 9px 17px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.right__foot i {
+    font-size: 28px;
+    margin-right: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.right__foot i:hover {
+    color: blue;
+    transition: 2s;
+}
+
+.right__foot {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+
+/*-----------------------Second Footer-------------------*/
+
+.second__footer {
+    height: 50px;
+    background-color: rgb(71, 71, 179);
+}
+
+.second__footer p {
+    color: rgba(255, 255, 255, 0.733);
+    padding-top: 17px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------Responsive for Tabs (991px-768px)-------------------------------------------------------*/
+
+@media only screen and (max-width: 991px) {
+
+   
+    /*------------------Header------------*/
+
+    .container {
+        width: 96%;
+    }
+
+
+    .navigation {
+        display: none;
+    }
+
+    
+
+    /*-------------------Main Section---------------------*/
+
+    .title {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .banner {
+        min-height: 600px;
+    }
+   
+
+
+
+
+    /*---------------------Reputation Section ---------------------*/
+
+    .subtitle {
+        font-size: 36px;
+    }
+
+
+    /*---------------------About-us Section--------------*/
+
+    .about-us {
+        width: 100%;
+        height: 450px;
+    }
+
+    .about-us div {
+        width: 49%;
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+
+    .man-gray img {
+        margin: 0;
+        width: 100%;
+        height: 360px;
+    }
+
+   
+    
+    .man-description {
+        background-color: rgb(59, 59, 158);
+        padding: 20px 10px 20px 20px;
+        color: rgba(255, 255, 255, 0.836);
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        position: static;
+        width: 100%;
+        float: right;
+        box-sizing: border-box;
+        height: 360px;
+        overflow: auto;
+    }
+
+
+    /*--------------------Services---------------------*/
+
+    .services {
+        height: 800px;
+    }
+
+    .services h2 {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: rgba(0, 0, 0, 0.829);
+        font-size: 26px;
+    }
+    
+    .service-cards {
+        text-align: center;
+    
+    }
+    
+    .service-cards div {
+        width: 33%;
+        display: inline-block;
+        border-radius: 15px;
+        margin-right: 40px;
+    }
+    
+    .card {
+        background-color: white;
+        padding: 40px 0px;
+        margin-bottom: 40px;
+        text-align: center;
+        height: 100px;
+        
+    }
+    
+    .card div {
+        width: 50px;
+    }
+
+    .line {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 5px;
+        width: 30px;
+    }
+
+    .card i {
+        font-size: 30px;
+    }
+    
+
+    .card p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+
+    /*----------------------History Section------------------------*/
+
+    .history {
+        width: 100%;
+    }
+
+    .history-nums,
+    .history-description {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .history-nums {
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .history-description {
+        width: 30%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .history-nums div {
+        position: static;
+        box-sizing: content-box;
+        width: 30%;
+    }
+
+
+    .history-nums h2,
+    .history-nums p {
+        color: black;
+        position: static;
+    }
+
+    .history-nums h2 {
+        text-align: right;
+        font-size: 36px;
+    }
+
+    .history-nums i {
+        position: static;
+        display: block;
+        font-size: 36px;
+    }
+
+
+    /*---------------------------Cosultation Section -------------------------*/
+
+    .consul-item__1 {
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+
+    /*-----------------------Projects Section-------------------------------*/
+
+    .projects {
+        width: 100%;
+    }
+
+    .projects__item-pic {
+      min-height: 250px;
+      width: 40%;
+    }
+
+    .projects__item-pic:hover {
+      transform: translate(10px, 10px);
+      transition: 1s;
+
+    }
+
+    .projetcs__item-description h4,
+    .projetcs__item-description p {
+        font-size: 14px;
+    }
+
+    .projetcs__item-description h4 {
+        margin-bottom: 0px;
+    }
+
+    .projetcs__item-description p {
+        line-height: 14px;
+    }
+    
+    .projects__title {
+        margin-left: 50px;
+    }
+
+    .projects__item-1 {
+        padding-left: 50px;
+        box-sizing: border-box;
+    }
+
+    .move__part {
+        padding-left: 60px;
+    }
+
+    .move__part button {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+
+
+    .mid__dott {
+        width: 40px;
+        margin: auto 60px;
+    }
+
+
+    /*---------------------Footer Section---------------------*/
+
+    .left__foot {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    /*------------------Second Footer----------------*/
+
+    .second__footer p {
+        margin-left: 30px;
+    }
+
+    
+}
+
+
+/*-------------------------------Responsive for Mobile (767px-481px) -------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        width: 96%;
+    }
+
+
+    .title {
+        font-size: 28px;
+        line-height: 40px;
+        margin: auto 30px;
+    }
+
+    /*--------------Reputation section-----------------*/
+
+    .subtitle {
+        font-size: 30px;
+        margin-right: 50px;
+    }
+
+    .reputation-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;    
+        gap: 20px;
+    }
+
+    .reputation-boxes div {
+        width: 35%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+ /*-----------------------------------About us section ---------------------*/
+
+ .about-us {
+    height: auto;
+ }
+
+ .man-gray img {
+    height: 300px;
+    min-height: auto;
+ }
+
+ .man-description {
+    height: 300px;
+ }
+
+ .man-description p {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5;
+ }
+ 
+
+/*----------------------------------------Service Section----------------------------*/
+
+.services {
+    height: 650px;
+}
+
+.service-cards div {
+    margin-right: 20px;
+
+}
+
+.card {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card i {
+    font-size: 24px;
+}
+
+/*--------------------------------------------History Section-----------------------------*/
+
+.history {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 750px;
+}
+
+.history-nums {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+.history-description {
+    width: 100%;
+    display: block;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.history-des__title {
+    font-size: 36px;
+    
+}
+
+/*---------------Cosultation section--------------------*/
+
+.consul-subtitle {
+    font-size: 24px;
+}
+
+.consul-action {
+    width: 140px;
+}
+
+.consul-item__1 {
+    padding-left: 0;
+}
+
+
+/*---------------------------Projects Section-----------------------------*/
+
+.projects__title {
+    margin-left: 0;
+}
+
+.projects__item-1 {
+    padding-left: 0;
+}
+
+.projects__item-2 {
+    padding-left: 0;
+}
+
+.projects__item-pic {
+    width: 43%;
+}
+
+.move__part {
+    padding-left: 10px
+}
+
+.mid__dott {
+    margin: 0 25px;
+}
+
+/*--------------------------------Footer Section-------------------------------*/
+
+.right__foot {
+    padding-left: 20px;
+}
+
+.right__foot button {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
